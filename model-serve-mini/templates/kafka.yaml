@@ -73,6 +73,9 @@ spec:
             - name: KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR
               value: {{ .Values.kafka.offsetsTopicReplicationFactor | quote }}
 
+            - name: KAFKA_LOG_DIRS
+              value: {{ .Values.kafka.storage.mountPath | quote }}
+
           volumeMounts:
             - name: kafka-data
               mountPath: {{ .Values.kafka.storage.mountPath | quote }}
