@@ -18,7 +18,7 @@ storage:
   datasetPath: "/app/storage/datasets"
   modelPath: "/app/storage"
 cpuWorker:
-  replicas: 3
+  replicas: 5
   groupId: "cpu-training-workers"
   device: "cpu"
 completionWorker:
