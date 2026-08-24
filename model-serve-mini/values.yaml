@@ -1,11 +1,11 @@
 image:
   cpu:
     repository: btreeorange/modelservemini
-    tag: 1e7b677210023543fd1e627f8858be5a16c43528
+    tag: ab44177053c81fcf38353497fe2c3d5172bb0c1a
     pullPolicy: IfNotPresent
   gpu:
     repository: btreeorange/modelservemini-gpu
-    tag: 1e7b677210023543fd1e627f8858be5a16c43528
+    tag: ab44177053c81fcf38353497fe2c3d5172bb0c1a
     pullPolicy: IfNotPresent
 api:
   replicas: 1
